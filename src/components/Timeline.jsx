@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-import { chapters } from '../data/chapters.js'
-export default function Timeline({ active }) {
-  const go = id => document.getElementById(id)?.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' })
-  return (
-    <section id="timeline" className="timeline" aria-label="Timeline">
-      <h2>Timeline</h2>
-      <ol className="strip">
-        {chapters.flatMap(c => c.events.map(e => ({ ...e, id: c.id }))).map(e => (
-          <li key={e.y + e.t} className={e.id === active ? 'on' : ''}>
-            <button onClick={() => go(e.id)}><time>{e.y}</time><span>{e.t}</span></button>
-          </li>))}
-      </ol>
-    </section>
-  )
-=======
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea
 import { useRef } from "react";
 import { ArrowRight } from "lucide-react";
 import { gsap, ScrollTrigger, useGSAP } from "../animations/gsap.js";
@@ -231,8 +212,4 @@ export default function Timeline() {
       )}
     </section>
   );
-<<<<<<< HEAD
-=======
->>>>>>> 10b01fe (Version 2.0)
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea
 }

@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-createRoot(document.getElementById('root')).render(<App />)
-=======
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea
 import React from "react";
 import { createRoot } from "react-dom/client";
 
@@ -30,7 +21,3 @@ createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
-<<<<<<< HEAD
-=======
->>>>>>> 10b01fe (Version 2.0)
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea

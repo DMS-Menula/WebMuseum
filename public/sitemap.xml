@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>/</loc></url></urlset>
-=======
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea
 <!-- WebMuseum sitemap — replace webmuseum.example with your deployed domain. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -58,7 +52,3 @@
     <priority>0.8</priority>
   </url>
 </urlset>
-<<<<<<< HEAD
-=======
->>>>>>> 10b01fe (Version 2.0)
->>>>>>> f374fb7253c9faa008e87cddf5a693b3c57721ea
