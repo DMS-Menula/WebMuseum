@@ -1,0 +1,7 @@
+# WebMuseum — an educational digital museum
+# Replace webmuseum.example with your deployed domain after publishing.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://webmuseum.example/sitemap.xml
