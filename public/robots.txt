@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+User-agent: *
+Allow: /
+Sitemap: /sitemap.xml
+=======
+# WebMuseum — an educational digital museum
+# Replace webmuseum.example with your deployed domain after publishing.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://webmuseum.example/sitemap.xml
+>>>>>>> 10b01fe (Version 2.0)

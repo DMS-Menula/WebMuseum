@@ -1,0 +1,13 @@
+{
+  "name": "WebMuseum — Explore the Evolution of the Internet",
+  "short_name": "WebMuseum",
+  "description": "An immersive digital museum exploring the history of the internet.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#101010",
+  "theme_color": "#101010",
+  "icons": [
+    { "src": "favicon/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "favicon/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
